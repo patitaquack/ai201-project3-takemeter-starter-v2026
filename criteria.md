@@ -53,61 +53,41 @@ whether you hit them:
 
 ## 1.
 
-<!-- Your criterion. It must name a number. -->
+Overall accuracy of at least 0.60 on the held-out set, on all three seeds.
 
-
-
-**Why this target:**
-
-
+**Why this target:** I have four labels, so random guessing gets about 25%. Most top comments on this video are jokes, so always guessing `joke` might get around 35–40%. At 0.60 the model is clearly doing better than either of those, but I'm not asking for more because my test set is only about 30 comments and the score will move between seeds.
 
 ---
 
 ## 2.
 
-<!-- Your criterion. -->
+`joke` and `experience` each have an F1 of at least 0.60, and `question` and `opinion` each have an F1 of at least 0.40, on all three seeds.
 
-
-
-**Why this target:**
-
-
+**Why this target:** `joke` and `experience` are the most common kinds of comments on this video, so they'll have the most examples to learn from. Questions and opinions are much rarer, so only a handful will land in the test split and their scores will jump around between seeds. That's why their target is lower. `opinion` is also the hardest to spot, because people often mix it with their own story ("Meds changed my life, everyone should try them").
 
 ---
 
 ## 3.
 
-<!-- Your criterion. -->
+In `labels.csv`, every label is at least 15% of the rows (about 30 of 200), and no label is more than 40%.
 
-
-
-**Why this target:**
-
-
+**Why this target:** From reading the comments, jokes and personal stories make up most of them, and questions and opinions are rare. If I only labeled in the order YouTube shows comments, I'd end up with very few questions and opinions and the model couldn't learn them. Setting a minimum means I have to go looking for those kinds on purpose, for example by sorting by "Newest."
 
 ---
 
 ## 4.
 
-<!-- Your criterion. -->
+I agree with the staff labels on at least 21 of the 30 staff posts (70%).
 
-
-
-**Why this target:**
-
-
+**Why this target:** This tests whether I can apply written definitions the same way someone else does. The staff posts use the running-forum labels, not my ADHD labels, so they're new to me and I expect to miss some. 70% is a fair bar for that. If I get under that, it's a sign my own 200 labels might not be consistent either.
 
 ---
 
 ## 5.
 
-<!-- Your criterion. -->
+The model's most confident third of test predictions is at least 0.15 more accurate than its least confident third, on all three seeds.
 
-
-
-**Why this target:**
-
-
+**Why this target:** Lots of comments on this video mix kinds, like a joke that is also about the writer's life, or a question with a 😂. I expect the model to be less sure about those mixed ones and more often wrong. If its confidence means something, the confident guesses should be clearly better. A gap of 0.15 is about 2 more correct comments out of each group of 10, which is big enough to see even on a small test set.
 
 ---
 

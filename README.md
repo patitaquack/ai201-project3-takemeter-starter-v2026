@@ -54,33 +54,61 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `joke`
 
-**Definition:**
-
-**Example 1:**
->
-
-**Example 2:**
->
-
-### `label_two`
-
-**Definition:**
+**Definition:** Makes fun of the writer's own ADHD, usually through exaggeration, a "me:" setup, or laughing emojis.
 
 **Example 1:**
->
+> Being ADHD means a 37 minute video is in reality a 1 hour 37 minute video
 
 **Example 2:**
->
+> My ADHD saw that the video was almost 38 minutes long and said "nah dog we can't do that". 😂
+
+### `experience`
+
+**Definition:** Sincerely describes the writer's own life with ADHD: symptoms, struggles, medication, or what helped.
+
+**Example 1:**
+> I hate my ADHD , I'll be constantly reminding myself and talking out loud to do something over and over and like 2 minutes later forget what I was trying to remember
+
+**Example 2:**
+> What happens to me with ADD is that my focus switches to inner thoughts or memories, and everything outside becomes secondary, thus losing essential information while my mind hyperfocused on something I really liked (my thought/memory). That's why online classes work better for me than in person, because if that happens, I can just rewind the recording to the part I lost focus.
+
+### `question`
+
+**Definition:** Asks for information, advice, or a future video.
+
+**Example 1:**
+> 3:34 is this why I work well under pressure?
+
+**Example 2:**
+> Hi, is it that I am less happy in life, hence I have less dopamine, hence I have ADHD? I will improve if I am happier?
+
+### `opinion`
+
+**Definition:** Makes a general claim about ADHD, its treatment, or the video, aimed at everyone rather than about the writer.
+
+**Example 1:**
+> Stay away from drugs. Learn to modify your behavior.
+
+**Example 2:**
+> If only ADHD was real. Whole generation sucked into this extortion. The reason you have ADHD is because you've been convinced you have ADHD you poor people.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `joke` and `experience`. Both are about the writer's own ADHD. For example:
+
+> Me with ADHD watching it by postponing my important work 😅
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+If the main point is to get a laugh (an exaggeration, a "me:" setup, a laughing emoji, or "lol"), it's `joke`, even if it's true. If it describes a real struggle with none of those, it's `experience`. The post above is `joke`.
+
+For every post, I check these in order and stop at the first "yes":
+
+1. Does it ask a real question? → `question`
+2. Is it going for a laugh? → `joke`
+3. Does it tell everyone what's true or what to do? → `opinion`
+4. Otherwise, it's about the writer's own life → `experience`
 
 
 
