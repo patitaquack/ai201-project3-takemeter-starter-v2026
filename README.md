@@ -191,14 +191,23 @@ of next unit's variance. -->
 **Moment 1**
 
 - *What I asked for:*
+
+Help me pre label some of the comments, as they are many
 - *What came back:*
+pre labeled some of the comments and also included the ones it prelabeled
 - *What I changed:*
+I did some on my own, and reviewed the ones claude did
 
 **Moment 2**
 
 - *What I asked for:*
+I needed help understand what this program was doing as I was not familiar with a lot of the terms used or of what the goal was 
 - *What came back:*
+
+claude simplified the instructions for me and also helped me understand the terms that I was nit familiar with     
 - *What I changed:*
+
+I was able to choose and organize what we needed to know once I undestood the assignment
 
 **Pre-labelling disclosure:**
 
