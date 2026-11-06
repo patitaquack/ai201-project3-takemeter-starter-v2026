@@ -249,27 +249,31 @@ I was able to choose and organize what we needed to know once I undestood the as
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.60 on all three seeds | 0.767 | 0.700 | 0.533 | MISSED |
+| 2. Per-label F1 | `joke` & `experience` ≥ 0.60; `question` & `opinion` ≥ 0.40 | joke 0.615, exp 0.842, q 0.923, op 0.667 | joke 0.875, exp 0.667, q 0.769, op 0.400 | joke 0.727, exp 0.600, q 0.533, op **0.286** | MISSED |
+| 3. Label balance in `labels.csv` | every label ≥ 15%, none > 40% | 24–26% each | same | same | MET |
+| 4. Agreement with staff labels | ≥ 21 / 30 (70%) | — | — | — | not tested yet |
+| 5. Confidence gap (most-sure third minus least-sure third) | ≥ 0.15 on all three seeds | 0.80 − 0.60 = 0.20 | 0.80 − 0.60 = 0.20 | 0.90 − 0.40 = 0.50 | MET |
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
-|---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+Seed 42, on the same 30 held-out posts as the baseline.
+
+| true \ predicted | joke | experience | question | opinion |
+|---|---|---|---|---|
+| **joke** | 4 | 1 | 0 | 2 |
+| **experience** | 0 | 8 | 0 | 0 |
+| **question** | 0 | 1 | 6 | 0 |
+| **opinion** | 2 | 1 | 0 | 5 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
+My biggest off-diagonal number is 2, and it goes both ways: 2 real `joke` posts were called `opinion` and 2 real `opinion` posts were called `joke`, so the model hasn't learned the joke/opinion boundary in either direction. That matches my own hard case of a joke-sounding comment that was really an opinion.
 
 
 
