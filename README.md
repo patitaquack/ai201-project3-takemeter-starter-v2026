@@ -309,18 +309,23 @@ My biggest off-diagonal number is 2, and it goes both ways: 2 real `joke` posts 
 
 ## Agreement Report
 
+
+
+
 <!-- Your rate against the staff set, and every disagreement adjudicated.
 
      Remember you labelled these 30 under the STAFF taxonomy in
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 75%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
      of the 30 were chosen because they're genuinely ambiguous — you should be
      winning some of these. -->
+
+
 
 **Disagreements**
 
@@ -338,20 +343,61 @@ My biggest off-diagonal number is 2, and it goes both ways: 2 real `joke` posts 
      what you did across your own 200. -->
 
 **1.**
-> *The post:*
+> *The post:* "Everyone blames the hill at 18 miles. I split the field into people who ran the first half under 1:45 and over, and the slowdown after 18 was almost identical for both groups. If the hill were the problem the fast starters would fall apart harder."
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `analysis` / `hot_take`
+>
+> *My call, and why:* I called it hot_take, certain opinions were not factual, and were more of a rant.
+> As for analysis are usually factual, and are more of a reaction to an experience.
+> But for this one the staff was right, as this is more of an experience based analysis
+>
+> *Which pile:*
+
+**2.**
+> *The post:* "Ran the same loop in 4C and in 24C within a fortnight, same effort by heart rate. 90 seconds slower in the heat over six miles. People keep saying heat costs you 'a bit' and it's more than that."
+>
+> *Staff said / I said:* `analysis` / `hot_take`
+>
+> *My call, and why:* For this one I believe I got it right, because even though it sounds like an analysis at first, towards the end it ends " people say this " ", but it is more than that.
+> To me that is a biased opinion about the matter.
+>
+> *Which pile:*
+
+**3.**
+> *The post:* "Three of us ran the same session on the same day, different shoes, within 10 seconds of each other over 5 miles. I'm not saying shoes do nothing, but whatever they do was smaller than the noise between three people."
+>
+> *Staff said / I said:* `analysis` / `hot_take`
 >
 > *My call, and why:*
 >
 > *Which pile:*
 
-**2.**
-> *The post:*
+**4.**
+> *The post:* "The club needs to stop pretending the Tuesday session is for everyone. It isn't and it never has been."
 >
-> *Staff said / I said:*
+> *Staff said / I said:* `hot_take` / `reaction`
 >
-> *My call, and why:*
+> *My call, and why:* I believe the staff for it right.
+> I chose reaction due to the tone of the comment, but that might be me interpreting it that way. It it definitely more of a biased opinion with no real factual evidence. So it is more of a hot_take
+>
+> *Which pile:*
+
+**5.**
+> *The post:* "Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem."
+>
+> *Staff said / I said:* `hot_take` / `reaction`
+>
+> *My call, and why:* I chose reaction based on the tone. I believe the staff was right about this. Stting the sport has a problem, makes the whole statement a hot take.
+>
+> *Which pile:*
+
+**6.**
+> *The post:* "Every injury thread on this forum is the same injury and the same three replies."
+>
+> *Staff said / I said:* `hot_take` / `analysis`
+>
+> *My call, and why:* I chose analysis, and I believe that is still the correct label.
+> That sounds like a fact, which is more of an analysis based on factual evidence, rather than opinion.
 >
 > *Which pile:*
 
