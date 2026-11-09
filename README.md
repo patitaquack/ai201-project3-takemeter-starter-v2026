@@ -417,11 +417,11 @@ My biggest off-diagonal number is 2, and it goes both ways: 2 real `joke` posts 
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | ≥ 0.60 on all three seeds | _pending_ | _pending_ | _pending_ | _pending_ |
+| 2. Per-label F1 | `joke` & `experience` ≥ 0.60; `question` & `opinion` ≥ 0.40 | _pending_ | _pending_ | _pending_ | _pending_ |
+| 3. Label balance in `labels.csv` | every label ≥ 15%, none > 40% | 24–26.5% each (exp 53, op 51, joke 48, q 48) | same | same | MET |
+| 4. Agreement with staff labels | ≥ 21 / 30 (70%) | 24 / 30 = 80% | — | — | MET |
+| 5. Confidence gap (most-sure third minus least-sure third) | ≥ 0.15 on all three seeds | _pending_ | _pending_ | _pending_ | _pending_ |
 
 **Did it help, and how do I know:**
 
